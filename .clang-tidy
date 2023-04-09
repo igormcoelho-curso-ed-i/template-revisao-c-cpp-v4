@@ -5,13 +5,14 @@ Checks: >
     google-*,
     performance-*,
     -cppcoreguidelines-avoid-magic-numbers,
-    -google-readability-todo,
-    -performance-unnecessary-value-param,
-    -google-readability-braces-around-statements,
+    -cppcoreguidelines-avoid-do-while,
     -cppcoreguidelines-non-private-member-variables-in-classes,
     -cppcoreguidelines-pro-type-cstyle-cast,
-    -clang-diagnostic-builtin-macro-redefined,
-    -google-readability-casting
+    -google-readability-todo,
+    -google-readability-braces-around-statements,
+    -google-readability-casting,
+    -performance-unnecessary-value-param,
+    -clang-diagnostic-builtin-macro-redefined
 #
 HeaderFilterRegex: ".*"
 

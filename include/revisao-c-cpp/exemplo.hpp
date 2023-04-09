@@ -14,25 +14,26 @@
 #include <string>
 #include <tuple>  // para exercícios com tupla
 
-using fmt::print;
-using scn::scan;
+using fmt::print;  // NOLINT
+using scn::scan;   // NOLINT
 
 // exemplo útil (em C):
 // ler N numeros e retornar a soma desses números
 // NAO APAGUE OU MODIFIQUE O CABEÇALHO DA FUNÇÃO ABAIXO
 int exemplo_c(std::string _entrada) {
   const char* entrada = _entrada.c_str();
-  int n, count;
+  int n = 0;
+  int count = 0;
 
-  sscanf(entrada, "%d%n", &n, &count);
-  entrada += count;
+  sscanf(entrada, "%d%n", &n, &count);  // NOLINT
+  entrada += count;                     // NOLINT
 
   int s = 0;
   while (n--) {
     int v = 0;
 
-    sscanf(entrada, "%d%n", &v, &count);
-    entrada += count;
+    sscanf(entrada, "%d%n", &v, &count);  // NOLINT
+    entrada += count;                     // NOLINT
 
     s += v;
   }

@@ -16,8 +16,8 @@
 #include <revisao-c-cpp/exemplo.hpp>
 //
 
-using fmt::print;
-using scn::scan;
+using fmt::print;  // NOLINT
+using scn::scan;   // NOLINT
 
 // exercício 0
 // NAO APAGUE OU MODIFIQUE O CABEÇALHO DA FUNÇÃO ABAIXO

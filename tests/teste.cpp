@@ -1,17 +1,19 @@
+// SPDX-License-Identifier:  MIT
+// Copyright (C) 2023 - Prof. Igor Machado Coelho
+
 // Definições de teste. Não edite esse arquivo!
 
 #include <tuple>
-
-#include "revisao-c-cpp/exemplo.hpp"
-
+//
 // #define CATCH_CONFIG_MAIN  // define main() automaticamente
 #ifdef HEADER_ONLY
 #include <catch2/catch_amalgamated.hpp>
 #else
 #include <catch2/catch_all.hpp>
 #endif
-
+//
 #include <revisao-c-cpp/aluno.hpp>  // implementações do aluno
+#include <revisao-c-cpp/exemplo.hpp>
 
 template <class T1, class T2>
 std::ostream& operator<<(std::ostream& os, const std::tuple<T1>& t) {
