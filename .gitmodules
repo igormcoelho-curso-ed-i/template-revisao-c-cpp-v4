@@ -1,0 +1,6 @@
+[submodule "external/fmt-9.1.0"]
+	path = external/fmt-9.1.0
+	url = https://github.com/fmtlib/fmt.git
+[submodule "external/scn-1.1.2"]
+	path = external/scn-1.1.2
+	url = https://github.com/eliaskosunen/scnlib.git
