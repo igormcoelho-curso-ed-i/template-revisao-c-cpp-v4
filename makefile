@@ -14,7 +14,8 @@ cmake_ninja:
 	@echo "BEGIN CMAKE BUILD"
 	@echo ""
 	mkdir -p build
-	cd build && cmake .. -GNinja && ninja
+	# cd build && cmake .. -GNinja && ninja
+	cd build && cmake .. && make
 	
 manual: src/main.cpp
 	$(CC_CUSTOM) -Ofast -Wall $(INCLUDES) $(DEFINES) src/main.cpp -o aplicacao
