@@ -25,7 +25,7 @@ run:
 	./aplicacao
 
 test: tests/teste.cpp
-	$(CC_CUSTOM) -Ofast -Wall $(INCLUDES) $(DEFINES) tests/teste.cpp -Itests/thirdparty tests/thirdparty/catch2/catch_amalgamated.cpp -o appTestes
+	$(CC_CUSTOM) -Ofast -Wall $(INCLUDES) $(DEFINES) tests/teste.cpp -Itests/thirdparty tests/thirdparty/catch2/catch_amalgamated.cpp -o appTeste
 	echo "FINISHED MAKE BUILD TESTS!"
 	
 

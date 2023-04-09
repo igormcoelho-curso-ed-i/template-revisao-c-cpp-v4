@@ -32,7 +32,7 @@ Explicações sobre os demais arquivos:
 - o arquivo `tests/thirdparty/catch_amalgamated.hpp` contém a biblioteca de testes CATCH2 (NÃO EDITE!)
 - o arquivo `makefile` contém os comandos de execução da lista (NÃO EDITE!)
 - o arquivo `CMakeLists.txt` contém os comandos de execução da lista (NÃO EDITE!)
-- o arquivo `appTestes` será gerado após compilação (caso queira fazer testes localmente, basta executá-lo)
+- o arquivo `appTeste` será gerado após compilação (caso queira fazer testes localmente, basta executá-lo)
 
 ## Comando de Testes
 
