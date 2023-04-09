@@ -24,7 +24,7 @@ run:
 	./build/aplicacao
 	./aplicacao
 
-test: tests/teste.cpp
+test: vendor tests/teste.cpp
 	$(CC_CUSTOM) -Ofast -Wall $(INCLUDES) $(DEFINES) tests/teste.cpp -Itests/thirdparty tests/thirdparty/catch2/catch_amalgamated.cpp -o appTeste
 	echo "FINISHED MAKE BUILD TESTS!"
 	
