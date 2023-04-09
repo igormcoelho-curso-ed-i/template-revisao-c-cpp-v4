@@ -1,0 +1,6 @@
+*.exe
+app*
+external/
+.devcontainer
+aplicacao
+build/
