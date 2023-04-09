@@ -32,7 +32,8 @@ int exercicio0(std::string entrada) {
 int exercicio1(std::string entrada) {
   int a = 0;
   int b = 0;
-  [[maybe_unused]] auto resto = scan(entrada, "{} {}", a, b);
+  auto resto = scan(entrada, "{} {}", a, b);
+  if (!resto) return -1;  // ERRO DE LEITURA
   int soma = 0;
   for (int i = a; i <= b; i++) soma += i;
   return soma;

@@ -1,5 +1,4 @@
 *.exe
 app*
-.devcontainer
 aplicacao
 build/
